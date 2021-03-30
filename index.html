@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Quiz Challenge</title>
+</head>
+<body>
+    <div id="first-container">
+        <div id="view-scores">View Scores</div>
+        <div class="hide" id="scoreDiv">
+            <h2>Highscores</h2>
+            <div><ul id="highScoreList"></ul></div>
+            <div>
+                <button type="button" id="closebtn" class="button">Close</button>
+                <button type="button" id="clearbtn" class="button">Clear Highscores</button>
+            </div>
+        </div>
+        <div>Timer<span id="timer-count"> 0</span></div>
+        
+    </div>
+
+    <div id="second-container">
+        <h1>Coding Quiz Challenge</h1>
+        <button id="start-button" class="button">Start</button>
+
+        <div class="hide" id="initials-Div">
+            <h2>Please Enter your Initials</h2>
+            <form >
+                <input type="text" id="initials" placeholder="Your initials here"/>
+                <button type="button" id="submit" class="button">Submit</button>
+            </form>
+
+        </div>
+
+
+    </div>
+
+    <div id="third-container">
+        <div id="questions-text" >Questions</div>
+        <div id="answer-button"></div>
+        <div id="msg">Message</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
