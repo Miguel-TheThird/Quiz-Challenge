@@ -10,12 +10,11 @@ Unfortunately the app is not 100% just yet... the questions are just for show at
 
 Preview
 
-<!-- ![Password generator page](./assets/images/screencapture.png)
- -->
+![Quiz challenge page](./assets/screenshot.png)
+ 
 ## Link to deployed page
 
-<!-- [https://miguel-thethird.github.io/Password-Generator-with-JavaScript-/] -->
-
+[https://miguel-thethird.github.io/Quiz-Challenge/] 
 
 <!-- ### ASCII character table
 
